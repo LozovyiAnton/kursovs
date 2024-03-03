@@ -1,0 +1,145 @@
+body {
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    opacity: .95;
+    margin: 0;
+    padding: 0;
+
+}
+
+.my-navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.my-navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.my-navbar-collapse {
+    display: flex;
+}
+
+.my-navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.my-nav-item {
+    margin-right: 10px;
+}
+
+.my-nav-link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.my-nav-link.active {
+    font-weight: bold;
+}
+
+.my-nav-link:hover {
+    color: #999;
+}
+
+.my-footer {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.my-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.my-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #888;
+}
+
+.my-link:hover {
+    color: #000;
+    /* Змінюємо колір при наведенні курсора */
+}
+
+.my-copyright {
+    text-align: center;
+    color: #888;
+}
+
+.equipment {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.equipment-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.equipment-item img {
+    max-width: 100%;
+}
+
+.equipment-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.equipment-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.purchase {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.purchase-item {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.purchase-item h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.purchase-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.purchase-item button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
